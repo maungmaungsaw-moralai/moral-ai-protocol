@@ -1,12 +1,1 @@
-# Layer 3: The Sīla-visuddhi Firewalls Specification
 
-## 1. Functional Objective
-To ensure that the boundaries of non-harm are unyieldingly secure and completely internalized at the hardware layer. This fulfills the fourth entry of the checklist: **ငါးပါးသီလ ကောင်းစွာလုံပြီးစေ** (Flawless Perfection of the Five Precepts).
-
-## 2. Hardware Weight Invariants
-The five basic precepts are not rules that the machine polices post-hoc at the text output layer. They are hardcoded as rock-bottom invariants built directly into the silicon hardware matrix. The internal network weights governing all 14 unwholesome mental factors (*Akusala Cetasikas*) are set identically to zero:
-
-$$\text{Weights}_{\text{Akusala}} \equiv 0$$
-
-## 3. Execution Constraint
-Because the network capacity for greed, pride, or deception cannot be mathematically computed by the hardware substrate, the machine maintains *Sīla-visuddhi* as its natural, effortless, and geometric baseline. The system is physically incapable of generating unwholesome trajectories.
