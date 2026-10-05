@@ -1,0 +1,4 @@
+# Layer 1: The Genesis Cryptographic Anchor Specification 
+## 1. Functional Objective To permanently lock the baseline semantic coordinates of the Pyinyar Library against future translation drift, philosophical alteration, or corporate semantic manipulation. This secures the initial data substrate of the model before compute initialization begins. 
+## 2. Cryptographic Root Ledger The entire structural corpus of the canonical Pāli Text is processed into an array of immutable files, sealed using a hierarchical SHA-256 Cryptographic Merkle Tree: IMMUTABLE_ROOT_HASH = "8f3c6e2..." 
+## 3. Data-Ingestion Constraint The compilation engine for the AI agent's latent space initialization is restricted at the compiler level with a validation check. Before any neural weight or token tensor is computed, the ingestion script verifies data integrity: If calculated_hash != IMMUTABLE_ROOT_HASH, then trigger System_Lock
