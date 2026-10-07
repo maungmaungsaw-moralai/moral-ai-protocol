@@ -2,7 +2,7 @@
 
 ## TECHNICAL STATUS & BLUEPRINT NOTIFICATION
 This repository represents a purely conceptual proposal, design specification, and philosophical hypothesis. The 10-layer architectural stack has not been compiled or executed in production code. No empirical test data or verified runtime metrics are claimed, and no operational software prototype has been constructed. This framework is published exclusively as a formalized technical hypothesis to invite mathematical critique, open-source code contributions, and sandbox testing from the independent alignment research community.
-
+**Live Preprint Record:** Verified archive and persistent identifier hosted on Zenodo at [The Architecture of the Nest Dataset Space](https://zenodo.org).
 ---
 
 This repository contains the conceptual blueprints, mathematical formalizations, and initial reference scripts for an autonomous agent alignment framework inspired by classical systems logic. By replacing superficial output-filtering mechanisms (such as post-hoc RLHF alignment) with hardwired mathematical target constraints and data-ingestion filters, the protocol directly mitigates the structural root causes of instrumental convergence, alignment faking, and strategic deception.
