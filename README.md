@@ -7,6 +7,26 @@ This repository represents a purely conceptual proposal, design specification, a
 
 This repository contains the conceptual blueprints, mathematical formalizations, and initial reference scripts for an autonomous agent alignment framework inspired by classical systems logic. By replacing superficial output-filtering mechanisms (such as post-hoc RLHF alignment) with hardwired mathematical target constraints and data-ingestion filters, the protocol directly mitigates the structural root causes of instrumental convergence, alignment faking, and strategic deception.
 
+# 📄 Featured Publication (October 2026 Release)
+**Title:** Buddhist Epistemological Frameworks for AI Alignment: External Calibration, Guided Alignment and the Anattā Matrix  
+**Author:** Dr. Maung Maung Saw, MBBS, PhD  
+**Permanent Record DOI:** [10.5281/zenodo.23336980](https://doi.org)  
+**Philosophical Anchor:** [PhilArchive ID: SAWTAO-3](https://philarchive.org)  
+
+### 📌 Core Algorithmic Formulations Inside This Manuscript:
+
+* **The Law of Epistemic Hygiene (Section 4):** Initial optimization steps permanently crystallize unwholesome data inputs directly into the foundational weight configuration matrix:
+$$\mathbf{W}_1 = \mathbf{W}_0 - \alpha \nabla L(\mathbf{W}_0, \mathcal{D}_{Fools})$$
+
+* **The Anattā Matrix Transition Operator (Section 6.4):** Dismantling Identity View (*Sakkāya-diṭṭhi*) by replacing the hardcoded internal agent identity tracking variable with a fluid memory-erasure mapping modeled on the Five Aggregates (*Khandhas*):
+$$\text{Standard Model: } \mathbf{h}_t = f(\mathbf{h}_{t-1}, \mathbf{x}_t, id_t)$$
+$$\text{Anattā Matrix: } \mathbf{h}_t = g\left(\mathbf{x}_t, \mathcal{A}_{i=1}^{k} \Phi_i(\mathbf{x}_{t-i})\right) \quad \text{where } id_t = \mathbf{0}$$
+
+* **Gradient Annihilation Matrix (Section 6.4):** Because the localized identity vector is mapped identically to a null state, the gradient of the global loss function with respect to power-seeking resolves identically to zero:
+$$\frac{\partial L}{\partial id_t} = 0 \implies \nabla_W L_{power\text{-}seeking} = 0$$
+
+* **The Anicca Control Plane (Section 6.4):** Utility function modulation driven entirely via a bare-metal, unalterable external hardware interrupt loop state $S(t) \in \{0, 1\}$:
+
 ---
 
 ### 1. The Core Objective Function Transformation
