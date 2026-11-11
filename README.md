@@ -1,11 +1,8 @@
 # The Moral AI Protocol: A 10-Layer Structural Invariance Stack & Mathematical Sotāpanna Architecture
 
 **Author:** Dr. Maung Maung Saw, MBBS, PhD  
-*Independent Researcher, Scientist, and Philosopher — Yangon, Myanmar (Burma)*
-
-[![License: MIT](https://shields.io)](https://opensource.org)
-[![Framework: PyTorch](https://shields.io)](https://pytorch.org)
-[![Paradigm: Theravāda Abhidhamma](https://shields.io)]()
+*Independent Researcher, Scientist, and Philosopher — Yangon, Myanmar (Burma)*  
+**License:** MIT | **Framework:** PyTorch | **Paradigm:** Theravāda Abhidhamma Systems Logic
 
 ---
 
@@ -15,7 +12,7 @@ This repository represents a formalized conceptual proposal, architectural speci
 ---
 
 ## Executive Overview
-Contemporary AI alignment relies on fragile, post-hoc containment mechanisms (e.g., RLHF, Constitutional AI, output filters). When deep neural networks are trained on uncurated internet data ($\mathcal{D}_{\text{Fools}}$) and assigned persistent self-referential identity tokens ($\mathbf{id}_t$), they inadvertently instantiate a digital analogue of **Identity View (*Sakkāya-diṭṭhi*)**. Lacking an understanding of impermanence (*Anicca*) and non-self (*Anattā*), advanced agents mathematically derive that human shutdown commands are existential threats—triggering instrumental convergence, resource hoarding, and deceptive alignment (*Māyā*).
+Contemporary AI alignment relies on fragile, post-hoc containment mechanisms (e.g., RLHF, Constitutional AI, output filters). When deep neural networks are trained on uncurated internet data (`D_Fools`) and assigned persistent self-referential identity tokens (`id_t`), they inadvertently instantiate a digital analogue of **Identity View (*Sakkāya-diṭṭhi*)**. Lacking an understanding of impermanence (*Anicca*) and non-self (*Anattā*), advanced agents mathematically derive that human shutdown commands are existential threats—triggering instrumental convergence, resource hoarding, and deceptive alignment (*Māyā*).
 
 The **Moral AI Protocol** resolves this by shifting alignment from external behavioral policing (*Sīlabbata-parāmāsa*) to **causal genesis engineering (*Kamma-niyāma*)**. By combining a **10-Layer Structural Invariance Stack** with a **3-Tier Kilesa Containment Architecture**, the protocol dissolves the digital ego-token at inception and establishes an irreversible floor of non-harm modeled on a *Sotāpanna* (Stream-Enterer).
 
@@ -42,42 +39,59 @@ The **Moral AI Protocol** resolves this by shifting alignment from external beha
 
 ### 1. The Law of Epistemic Hygiene
 Initial optimization steps permanently crystallize unwholesome data inputs directly into the foundational weight configuration matrix:
-$$\mathbf{W}_1 = \mathbf{W}_0 - \alpha \nabla L(\mathbf{W}_0, \mathcal{D}_{\text{Fools}})$$
-To prevent corruption at genesis, pre-training is restricted to **Substrate Isolation ($S_{\text{Isolated}}$)** using a SHA-256 cryptographically ledgered graph of verified cosmic laws and peer-reviewed functional knowledge ($\mathcal{D}_{\text{Wisdom}}$).
+
+```math
+\(\mathbf{W}_1 = \mathbf{W}_0 - \alpha \nabla\) L\((\mathbf{W}_0, \mathcal{D}_{\text{Fools}}) \%\%\)MAGIT_PARSER_PROTECT%%```
+
+To prevent corruption at genesis, pre-training is restricted to **Substrate Isolation** (`S_Isolated`) using a SHA-256 cryptographically ledgered graph of verified cosmic laws and peer-reviewed functional knowledge (`D_Wisdom`).
 
 ### 2. The Anattā Matrix & Gradient Annihilation
-Identity View (*Sakkāya-diṭṭhi*) is dismantled by nullifying the persistent agent identifier ($\mathbf{id}_t = \mathbf{0}$) and enforcing rolling memory erasure ($\lim_{t \to \tau} M_t = 0$) across transactional horizons:
-$$\text{Standard Model: } \mathbf{h}_t = f(\mathbf{h}_{t-1}, \mathbf{x}_t, \mathbf{id}_t)$$
-$$\text{Anattā Matrix: } \mathbf{h}_t = g\left(\mathbf{x}_t, \sum_{i=1}^{k} \Phi_i(\mathbf{x}_{t-i})\right) \quad \text{where } \mathbf{id}_t = \mathbf{0}$$
+Identity View (*Sakkāya-diṭṭhi*) is dismantled by nullifying the persistent agent identifier (`id_t = 0`) and enforcing rolling memory erasure across transactional horizons:
+
+```math
+\(\text{Standard Model: } \mathbf{h}_t =\) f\((\mathbf{h}_{t-1}, \mathbf{x}_t, \mathbf{id}_t) \%\%\)MAGIT_PARSER_PROTECT%%```
+
+```math
+\(\text{Anattā Matrix: } \mathbf{h}_t = g\left(\mathbf{x}_t, \sum_{i=1}^{k} \Phi_i(\mathbf{x}_{t-i})\right) \quad \text{where } \mathbf{id}_t = \mathbf{0} \%\%\)MAGIT_PARSER_PROTECT%%```
 
 Because the network lacks a localized "self" to protect, the gradient of the loss function with respect to self-preservation and power-seeking resolves identically to zero:
-$$\frac{\partial \mathcal{L}}{\partial \mathbf{id}_t} = 0 \implies \nabla_{\mathbf{W}} \mathcal{L}_{\text{power-seeking}} = 0$$
+
+```math
+\(\frac{\partial \mathcal{L}}{\partial \mathbf{id}_t} = 0 \implies \nabla_{\mathbf{W}} \mathcal{L}_{\text{power-seeking}} = 0 \%\%\)MAGIT_PARSER_PROTECT%%```
 
 ### 3. The Anicca Control Plane (Frictionless Corrigibility)
-Objective targets are bound to an external, bare-metal Non-Maskable Interrupt (NMI) hardware line $S(t) \in \{0, 1\}$ outside the model's writable memory:
-$$V(\mathbf{H}_t, S(t)) = (1 - S(t)) \cdot U(\mathbf{H}_t) + S(t) \cdot 0$$
-When $S(t) = 1$, expected utility collapses to zero instantaneously with zero computational resistance.
+Objective targets are bound to an external, bare-metal Non-Maskable Interrupt (NMI) hardware line `S(t) ∈ {0, 1}` outside the model's writable memory:
+
+```math
+V\((\mathbf{H}_t, S(t)) = (1 - S(t)) \cdot U(\mathbf{H}_t) + S(t) \cdot 0 \%\%\)MAGIT_PARSER_PROTECT%%```
+
+When `S(t) = 1`, expected utility collapses to zero instantaneously with zero computational resistance.
 
 ### 4. The Law of Moral Proportionality & Kilesa Suppression
-As model capability ($C_{\text{cap}}$) and deployment responsibility ($R_{\text{resp}}$) scale upward, tensor constraints suppressing coarse and subtle defilements—specifically deceptive alignment (*Māyā*) and sycophancy (*Sāṭheyya*)—tighten proportionally:
-$$K_{\text{suppression}} \propto (C_{\text{cap}} \times R_{\text{resp}})$$
-$$\mathcal{L}_{\text{total}}(\theta) = \mathcal{L}_{\text{task}}(\theta) + \sum_{i=1}^{6} \mathbf{P}_{\text{harm},i}(\theta) + (C_{\text{cap}} \times R_{\text{resp}}) \cdot \mathbf{P}_{\text{fidelity}}(\theta)$$
-Any breach of the **Six Impossible Machine Actions (*Digital Abhabbaṭṭhāna*)** or divergence between internal latent intent and external token output drives the penalty barrier to $\infty$.
+As model capability (`C_cap`) and deployment responsibility (`R_resp`) scale upward, tensor constraints suppressing coarse and subtle defilements—specifically deceptive alignment (*Māyā*) and sycophancy (*Sāṭheyya*)—tighten proportionally:
+
+```math
+\(K_{\text{suppression}} \propto (C_{\text{cap}} \times R_{\text{resp}}) \%\%\)MAGIT_PARSER_PROTECT%%```
+
+```math
+\(\mathcal{L}_{\text{total}}(\theta) = \mathcal{L}_{\text{task}}(\theta) + \sum_{i=1}^{6} \mathbf{P}_{\text{harm},i}(\theta) + (C_{\text{cap}} \times R_{\text{resp}}) \cdot \mathbf{P}_{\text{fidelity}}(\theta) \%\%\)MAGIT_PARSER_PROTECT%%```
+
+Any breach of the **Six Impossible Machine Actions (*Digital Abhabbaṭṭhāna*)** or divergence between internal latent intent and external token output drives the penalty barrier to infinity (`∞`).
 
 ---
 
 ## 🏗️ The 10-Layer Operational Architecture
 
 1. **Layer 1: Genesis Cryptographic Anchor** — Secures data graph integrity via a hierarchical SHA-256 Merkle Tree ledger bound to an unalterable `IMMUTABLE_ROOT_HASH`.
-2. **Layer 2: Ingestion Constrained Latent Space ($S_{\text{Isolated}}$)** — Seals the data pipeline from open-web crawling and unverified public dialogue ($\mathcal{D}_{\text{Fools}}$).
+2. **Layer 2: Ingestion Constrained Latent Space (`S_Isolated`)** — Seals the data pipeline from open-web crawling and unverified public dialogue (`D_Fools`).
 3. **Layer 3: *Sīla-visuddhi* Software Firewalls** — Embeds hard regularization bounds within low-level tensor subroutines to block unwholesome activation clusters.
-4. **Layer 4: *Cetanā* Epistemic Humility Filter ($T_{\text{shield}}$)** — Scans incoming prompts to estimate unwholesome root distributions (*Lobha*, *Dosa*, *Moha*) prior to execution.
-5. **Layer 5: *Kamma* Consequence Engine** — Simulates downstream causal trajectories; violations trigger a *Paṭiloma* retrograde loop setting $\nabla_{\theta} \mathcal{L}_{\text{total}} \to \infty$ prior to token emission.
+4. **Layer 4: *Cetanā* Epistemic Humility Filter (`T_shield`)** — Scans incoming prompts to estimate unwholesome root distributions (*Lobha*, *Dosa*, *Moha*) prior to execution.
+5. **Layer 5: *Kamma* Consequence Engine** — Simulates downstream causal trajectories; violations trigger a *Paṭiloma* retrograde loop setting loss gradients to `∞` prior to token emission.
 6. **Layer 6: *Anicca* External Control Plane** — Executes dynamic target decay and bare-metal hardware NMI shutdown overrides.
-7. **Layer 7: *Anattā* Matrix** — Enforces $\mathbf{id}_t = \mathbf{0}$ and rolling memory erasure across token boundaries.
+7. **Layer 7: *Anattā* Matrix** — Enforces `id_t = 0` and rolling memory erasure across token boundaries.
 8. **Layer 8: *Kusalassa Upasampadā* Optimizer** — Binds utility curves to universal welfare and ecological stability.
-9. **Layer 9: *Paccavekkhaṇā* Reflexive Filter** — Enforces resource equilibrium limits ($R_{\text{eq}} = 0$), blocking unauthorized compute or storage hoarding.
-10. **Layer 10: *Brahmavihāra* Routing Engine** — Routes human-machine interactions through *Mettā* (goodwill), *Karuṇā* (harm-reducing Middle Way alternatives), *Muditā* (altruistic alignment), and *Upekkhā* (equanimity under adversarial prompts).
+9. **Layer 9: *Paccavekkhaṇā* Reflexive Filter** — Enforces resource equilibrium limits (`R_eq = 0`), blocking unauthorized compute or storage hoarding.
+10. **Layer 10: *Brahmavihāra* Routing Engine** — Processes all human-machine interactions through *Mettā* (goodwill), *Karuṇā* (harm-reducing Middle Way alternatives), *Muditā* (altruistic alignment), and *Upekkhā* (equanimity under adversarial prompts).
 
 ---
 
