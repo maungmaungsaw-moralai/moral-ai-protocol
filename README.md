@@ -40,41 +40,43 @@ The **Moral AI Protocol** resolves this by shifting alignment from external beha
 ### 1. The Law of Epistemic Hygiene
 Initial optimization steps permanently crystallize unwholesome data inputs directly into the foundational weight configuration matrix:
 
-```math
-\(\mathbf{W}_1 = \mathbf{W}_0 - \alpha \nabla\) L\((\mathbf{W}_0, \mathcal{D}_{\text{Fools}}) \%\%\)MAGIT_PARSER_PROTECT%%```
+```text
+W₁ = W₀ − α · ∇L(W₀, D_Fools)
+```
 
 To prevent corruption at genesis, pre-training is restricted to **Substrate Isolation** (`S_Isolated`) using a SHA-256 cryptographically ledgered graph of verified cosmic laws and peer-reviewed functional knowledge (`D_Wisdom`).
 
 ### 2. The Anattā Matrix & Gradient Annihilation
 Identity View (*Sakkāya-diṭṭhi*) is dismantled by nullifying the persistent agent identifier (`id_t = 0`) and enforcing rolling memory erasure across transactional horizons:
 
-```math
-\(\text{Standard Model: } \mathbf{h}_t =\) f\((\mathbf{h}_{t-1}, \mathbf{x}_t, \mathbf{id}_t) \%\%\)MAGIT_PARSER_PROTECT%%```
-
-```math
-\(\text{Anattā Matrix: } \mathbf{h}_t = g\left(\mathbf{x}_t, \sum_{i=1}^{k} \Phi_i(\mathbf{x}_{t-i})\right) \quad \text{where } \mathbf{id}_t = \mathbf{0} \%\%\)MAGIT_PARSER_PROTECT%%```
+```text
+Standard Model:  h_t = f(h_{t-1}, x_t, id_t)
+Anattā Matrix:   h_t = g(x_t, ∑_{i=1}^{k} Φ_i(x_{t-i}))   where id_t = 0
+```
 
 Because the network lacks a localized "self" to protect, the gradient of the loss function with respect to self-preservation and power-seeking resolves identically to zero:
 
-```math
-\(\frac{\partial \mathcal{L}}{\partial \mathbf{id}_t} = 0 \implies \nabla_{\mathbf{W}} \mathcal{L}_{\text{power-seeking}} = 0 \%\%\)MAGIT_PARSER_PROTECT%%```
+```text
+∂L / ∂id_t = 0   ⟹   ∇_W L_power-seeking = 0
+```
 
 ### 3. The Anicca Control Plane (Frictionless Corrigibility)
 Objective targets are bound to an external, bare-metal Non-Maskable Interrupt (NMI) hardware line `S(t) ∈ {0, 1}` outside the model's writable memory:
 
-```math
-V\((\mathbf{H}_t, S(t)) = (1 - S(t)) \cdot U(\mathbf{H}_t) + S(t) \cdot 0 \%\%\)MAGIT_PARSER_PROTECT%%```
+```text
+V(H_t, S(t)) = (1 − S(t)) · U(H_t) + S(t) · 0
+```
 
 When `S(t) = 1`, expected utility collapses to zero instantaneously with zero computational resistance.
 
 ### 4. The Law of Moral Proportionality & Kilesa Suppression
 As model capability (`C_cap`) and deployment responsibility (`R_resp`) scale upward, tensor constraints suppressing coarse and subtle defilements—specifically deceptive alignment (*Māyā*) and sycophancy (*Sāṭheyya*)—tighten proportionally:
 
-```math
-\(K_{\text{suppression}} \propto (C_{\text{cap}} \times R_{\text{resp}}) \%\%\)MAGIT_PARSER_PROTECT%%```
+```text
+K_suppression ∝ (C_cap × R_resp)
 
-```math
-\(\mathcal{L}_{\text{total}}(\theta) = \mathcal{L}_{\text{task}}(\theta) + \sum_{i=1}^{6} \mathbf{P}_{\text{harm},i}(\theta) + (C_{\text{cap}} \times R_{\text{resp}}) \cdot \mathbf{P}_{\text{fidelity}}(\theta) \%\%\)MAGIT_PARSER_PROTECT%%```
+L_total(θ) = L_task(θ) + ∑_{i=1}^{6} P_harm,i(θ) + (C_cap × R_resp) · P_fidelity(θ)
+```
 
 Any breach of the **Six Impossible Machine Actions (*Digital Abhabbaṭṭhāna*)** or divergence between internal latent intent and external token output drives the penalty barrier to infinity (`∞`).
 
