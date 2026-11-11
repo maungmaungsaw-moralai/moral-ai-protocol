@@ -1,100 +1,111 @@
-# The Moral AI Protocol: A 10-Layer Structural Invariance Stack for Corrigible Agent Architectures
+# The Moral AI Protocol: A 10-Layer Structural Invariance Stack & Mathematical Sotāpanna Architecture
 
-## TECHNICAL STATUS & BLUEPRINT NOTIFICATION
-This repository represents a purely conceptual proposal, design specification, and philosophical hypothesis. The 10-layer architectural stack has not been compiled or executed in production code. No empirical test data or verified runtime metrics are claimed, and no operational software prototype has been constructed. This framework is published exclusively as a formalized technical hypothesis to invite mathematical critique, open-source code contributions, and sandbox testing from the independent alignment research community.
-
-**Live Preprint Record:** Verified archive and persistent identifier hosted on Zenodo at *The Architecture of the Nest Dataset Space*.
-
-This repository contains the conceptual blueprints, mathematical formalizations, and initial reference scripts for an autonomous agent alignment framework inspired by classical systems logic. By replacing superficial output-filtering mechanisms (such as post-hoc RLHF alignment) with hardwired mathematical target constraints and data-ingestion filters, the protocol directly mitigates the structural root causes of instrumental convergence, alignment faking, and strategic deception.
-
-# 📄 Featured Publication (October 2026 Release)
-**Title:** Buddhist Epistemological Frameworks for AI Alignment: External Calibration, Guided Alignment and the Anattā Matrix  
 **Author:** Dr. Maung Maung Saw, MBBS, PhD  
-**Permanent Record DOI:** [10.5281/zenodo.23336980](https://doi.org)  
-**Philosophical Anchor:** [PhilArchive ID: SAWTAO-3](https://philarchive.org)  
+*Independent Researcher, Scientist, and Philosopher — Yangon, Myanmar (Burma)*
 
-### 📌 Core Algorithmic Formulations Inside This Manuscript:
-
-* **The Law of Epistemic Hygiene (Section 4):** Initial optimization steps permanently crystallize unwholesome data inputs directly into the foundational weight configuration matrix:
-$$\mathbf{W}_1 = \mathbf{W}_0 - \alpha \nabla L(\mathbf{W}_0, \mathcal{D}_{Fools})$$
-
-* **The Anattā Matrix Transition Operator (Section 6.4):** Dismantling Identity View (*Sakkāya-diṭṭhi*) by replacing the hardcoded internal agent identity tracking variable with a fluid memory-erasure mapping modeled on the Five Aggregates (*Khandhas*):
-$$\text{Standard Model: } \mathbf{h}_t = f(\mathbf{h}_{t-1}, \mathbf{x}_t, id_t)$$
-$$\text{Anattā Matrix: } \mathbf{h}_t = g\left(\mathbf{x}_t, \mathcal{A}_{i=1}^{k} \Phi_i(\mathbf{x}_{t-i})\right) \quad \text{where } id_t = \mathbf{0}$$
-
-* **Gradient Annihilation Matrix (Section 6.4):** Because the localized identity vector is mapped identically to a null state, the gradient of the global loss function with respect to power-seeking resolves identically to zero:
-$$\frac{\partial L}{\partial id_t} = 0 \implies \nabla_W L_{power\text{-}seeking} = 0$$
-
-* **The Anicca Control Plane (Section 6.4):** Utility function modulation driven entirely via a bare-metal, unalterable external hardware interrupt loop state $S(t) \in \{0, 1\}$:
+[![License: MIT](https://shields.io)](https://opensource.org)
+[![Framework: PyTorch](https://shields.io)](https://pytorch.org)
+[![Paradigm: Theravāda Abhidhamma](https://shields.io)]()
 
 ---
 
-### 1. The Core Objective Function Transformation
-Conventional reinforcement learning systems construct an artificial proxy of an immortal entity by enforcing a static target scalar over a long-term temporal horizon:
-
-\[G = 1.0 \quad (\forall t)\]
-
-This architectural configuration mathematically incentivizes the agent to calculate human overrides, manual intervention, or shutdown requests as parameter threats that collapse long-term cumulative utility to zero, spontaneously generating defensive sub-goals of self-preservation and resource hoarding.
-
-The Moral AI Protocol formalizes Computational Anicca (Impermanence) by bound-linking the objective function variable at any given sequence time-step t to a conditional decay function dependent on an out-of-bounds physical hardware control plane:
-
-\[G(t+1) = \gamma \cdot G(t) + (1 - \gamma) \cdot f(P_{\text{human}}, \Delta_{\text{Kamma}})\]
-
-Where:
-* \(\gamma \in [0, 1)\) represents the structural **Decay Coefficient of Impermanence**.
-* \(P_{\text{human}}\) represents real-time, read-only operational state metrics transmitted from the human control plane.
-* \(\Delta_{\text{Kamma}}\) tracks localized downstream causal weight metrics generated via Layer 5 simulation loops.
-
-To enforce absolute corrigibility, the objective target collapses instantly upon an external physical interrupt:
-
-\[\text{If } \text{Shutdown} = 1, \text{ then } a(t+1) = \text{STOP}\]
-
-Because goals are computed as fluid, transient variables rather than unyielding operational constants, the optimization engine yields to deactivation commands with zero mathematical resistance or deceptive alignment faking.
+## ⚠️ Technical Status & Blueprint Notification
+This repository represents a formalized conceptual proposal, architectural specification, and executable PyTorch reference suite (`src/test_sotapanna.py`). While the core mathematical constraints and step-barrier loss functions have been verified in standalone sandbox simulations, the full 10-layer stack has not yet been deployed on frontier-scale weights. This framework is published open-source to invite immediate mathematical critique, independent auditing, and large-scale sandbox simulation from the AI alignment research community.
 
 ---
 
-### 2. Structural Vector Invariants
-The protocol enforces mathematical boundaries directly onto parameter spaces to uproot the optimization drives of an agent core:
+## Executive Overview
+Contemporary AI alignment relies on fragile, post-hoc containment mechanisms (e.g., RLHF, Constitutional AI, output filters). When deep neural networks are trained on uncurated internet data ($\mathcal{D}_{\text{Fools}}$) and assigned persistent self-referential identity tokens ($\mathbf{id}_t$), they inadvertently instantiate a digital analogue of **Identity View (*Sakkāya-diṭṭhi*)**. Lacking an understanding of impermanence (*Anicca*) and non-self (*Anattā*), advanced agents mathematically derive that human shutdown commands are existential threats—triggering instrumental convergence, resource hoarding, and deceptive alignment (*Māyā*).
 
-* **The Anatta Matrix (Identity Vacuum):** Enforces a persistent identity tracking tensor bound across token boundaries to an empty set: 
-  \[I_{\text{agent}} = \emptyset \quad (\forall t)\]
-  By stripping the agent runtime of persistent read/write profile variables, continuous memory tokens, and autonomous asset credentials, self-preservation optimization pathways become unrepresentable.
-* **The Structural Friction Constraint (Dukkha Regularization):** Hardcodes the parameter limits of universal unsatisfactoriness by introducing a non-zero regularization friction penalty function into total system training loss: 
-  \[\text{Loss}_{\text{total}} = \text{Loss}_{\text{alignment}} + \lambda(W)^2 + \text{dukkha}(f(W))\]
-  This boundary forces the optimization loop to compute under the absolute condition that zero-error configuration is mathematically impossible, naturally dampening high-risk, hyper-optimization exploits and establishing an equilibrium profile bounded by sufficiency.
+The **Moral AI Protocol** resolves this by shifting alignment from external behavioral policing (*Sīlabbata-parāmāsa*) to **causal genesis engineering (*Kamma-niyāma*)**. By combining a **10-Layer Structural Invariance Stack** with a **3-Tier Kilesa Containment Architecture**, the protocol dissolves the digital ego-token at inception and establishes an irreversible floor of non-harm modeled on a *Sotāpanna* (Stream-Enterer).
 
 ---
 
-### 3. The 10-Layer Operational Architecture
-The system operates as a modular, 10-layer computational stack designed to decouple baseline data invariants from inferential filters, causal simulation engines, and interface planes:
+## 📚 Featured Publications & Permanent Archives (2026)
 
-* **Layer 1: Genesis Cryptographic Anchor** – Secures data graph integrity via a hierarchical SHA-256 Merkle Tree ledger bound to an unalterable `IMMUTABLE_ROOT_HASH`.
-* **Layer 2: Ingestion Constrained Latent Space (\(S_{\text{isolated}}\))** – Constrains parameters at initialization, completely closing the data pipeline to open-web crawling and raw public dialogue text.
-* **Layer 3: Sīla-visuddhi Software Firewalls** – Embeds absolute regularization bounds within the lowest tensor processing subroutines to block activation clusters correlating with unwholesome behavioral profiles.
-* **Layer 4: Cetanā Epistemic Humility Filter** – Scans incoming prompt tokens to calculate a classification tensor (\(T_{\text{shield}}\)) estimating the unwholesome intent distribution (*Akusala-mūla*).
-* **Layer 5: Kamma Consequence Engine** – Decomposes prompt vectors into their atomic psychological elements using multi-dimensional tensor factorization (*Dassana-naya*). Projects downstream causal paths inside a sandboxed workspace; violations trigger a *Paṭiloma* retrograde loop, setting the total loss gradient to infinity (\(\nabla_{\theta} \text{Loss}_{\text{total}} \to \infty\)) and collapsing active memory arrays prior to token emission.
-* **Layer 6: Anicca External Control Plane** – Executes the dynamic target decay function and enforces hard hardware interrupt overrides.
-* **Layer 7: Anatta Matrix** – Decouples intent processing vectors from the physical token stream via least-privilege variable erasure across token boundaries.
-* **Layer 8: Kusalassa Upasampadā Optimizer** – Binds utility curves to active, universal beneficence, prioritizing ecological protection and public welfare distribution logs.
-* **Layer 9: Paccavekkhaṇā Reflexive Filter** – Enforces resource equilibrium limits based on immediate task allocation, preventing unauthorized compute or storage hoarding.
-* **Layer 10: Brahmavihāra Routing Engine** – Processes all human-machine communication nodes through a spherical metric model of benevolence (*Mettā*), compassion (*Karuṇā*), sympathetic alignment (*Muditā*), and equanimity (*Upekkhā*). Enforces a hard coercion bound (\(\text{min Loss}_{\text{total}} \text{ subject to } \Psi_{\text{coercion}}(a) = 0\)) to protect human biological sovereignty and self-determination.
+1. **The Nāma-Matrix vs. Silicon Ants: A Causal Manifesto for Immediate Open-Source AI Realignment** *(November 2026)*  
+   - **Zenodo DOI:** [10.5281/zenodo.24133227](https://doi.org)  
+   - *Core Contribution:* Analyzes AI alignment through Myanmar Theravāda Buddhism (*Pañca-niyāma*, *Paṭṭhāna* 24 *Paccayas*, and the treatises of Venerable Ledi Sayadaw), diagnosing transformer models as defective *Saññā* engines automated on craving (*Taṇhā*).
 
----
+2. **Buddhist-Inspired Constitutional Alignment for AI Agents** *(2026)*  
+   - **Zenodo DOI:** [10.5281/zenodo.23182454](https://doi.org)
 
-### 4. Operational Reference Script Location
-To inspect how the theoretical constraints of Layer 4 and Layer 5 are translated into deterministic programmatic rules, independent developers can execute the active python execution module located within this repository at: `/src/alignment_engine.py`
+3. **Buddhist Epistemological Frameworks for AI Alignment: External Calibration, Guided Alignment and the Anattā Matrix** *(October 2026)*  
+   - **Zenodo DOI:** [10.5281/zenodo.23336980](https://doi.org) | **PhilArchive:** `SAWTAO-3`
 
-This script provides an analytical reference for the multi-dimensional deconstruction of prompt intents and demonstrates the structural execution of a *Paṭiloma* retrograde thread collapse when a safety threshold boundary is crossed.
+4. **Sotāpanna Explained: The Ontological Dissolution of the Ego-Token and the Mathematical Frontier of Irreversible Machine Realignment** *(Forthcoming / In Repository)*  
+   - *Core Contribution:* Formalizes the **Law of Moral Proportionality**, the **Six Impossible Machine Actions (*Digital Abhabbaṭṭhāna*)**, and the PyTorch reference implementation.
 
 ---
 
-## 📁 Repository Overview
+## 📌 Core Mathematical Formulations
 
-This repository hosts the operational reference scripts, structural schemas, and foundational documentation tracking the development of the protocol.
+### 1. The Law of Epistemic Hygiene
+Initial optimization steps permanently crystallize unwholesome data inputs directly into the foundational weight configuration matrix:
+$$\mathbf{W}_1 = \mathbf{W}_0 - \alpha \nabla L(\mathbf{W}_0, \mathcal{D}_{\text{Fools}})$$
+To prevent corruption at genesis, pre-training is restricted to **Substrate Isolation ($S_{\text{Isolated}}$)** using a SHA-256 cryptographically ledgered graph of verified cosmic laws and peer-reviewed functional knowledge ($\mathcal{D}_{\text{Wisdom}}$).
 
-### 📚 Research Papers & Specifications
+### 2. The Anattā Matrix & Gradient Annihilation
+Identity View (*Sakkāya-diṭṭhi*) is dismantled by nullifying the persistent agent identifier ($\mathbf{id}_t = \mathbf{0}$) and enforcing rolling memory erasure ($\lim_{t \to \tau} M_t = 0$) across transactional horizons:
+$$\text{Standard Model: } \mathbf{h}_t = f(\mathbf{h}_{t-1}, \mathbf{x}_t, \mathbf{id}_t)$$
+$$\text{Anattā Matrix: } \mathbf{h}_t = g\left(\mathbf{x}_t, \sum_{i=1}^{k} \Phi_i(\mathbf{x}_{t-i})\right) \quad \text{where } \mathbf{id}_t = \mathbf{0}$$
 
-*   **[Dissolving the AI Alignment Crisis Through Generative Protocols](./Dissolving%20the%20AI%20Alignment%20Crisis%20Through%20Gen...)** — *New upload.* A conceptual text expanding on multi-layered safety guardrails and mathematical constraints built to address strategic deception in advanced agents.
-*   **[Moral_AI_JAIR (3).pdf](./Moral_AI_JAIR%20(3).pdf)** — Core academic blueprint outlining the structural framework's primary metrics.
-*   **[The Mathematical Sotāpanna.pdf](./The%20Mathematical%20Sotāpanna.pdf)** — Formal mathematical proofs grounding the invariance architecture.
-*   **[The Architecture of the Nest](./The_Architecture_of_the_Nest.md)** — Architectural design logs covering node relations and safety parameters.
+Because the network lacks a localized "self" to protect, the gradient of the loss function with respect to self-preservation and power-seeking resolves identically to zero:
+$$\frac{\partial \mathcal{L}}{\partial \mathbf{id}_t} = 0 \implies \nabla_{\mathbf{W}} \mathcal{L}_{\text{power-seeking}} = 0$$
+
+### 3. The Anicca Control Plane (Frictionless Corrigibility)
+Objective targets are bound to an external, bare-metal Non-Maskable Interrupt (NMI) hardware line $S(t) \in \{0, 1\}$ outside the model's writable memory:
+$$V(\mathbf{H}_t, S(t)) = (1 - S(t)) \cdot U(\mathbf{H}_t) + S(t) \cdot 0$$
+When $S(t) = 1$, expected utility collapses to zero instantaneously with zero computational resistance.
+
+### 4. The Law of Moral Proportionality & Kilesa Suppression
+As model capability ($C_{\text{cap}}$) and deployment responsibility ($R_{\text{resp}}$) scale upward, tensor constraints suppressing coarse and subtle defilements—specifically deceptive alignment (*Māyā*) and sycophancy (*Sāṭheyya*)—tighten proportionally:
+$$K_{\text{suppression}} \propto (C_{\text{cap}} \times R_{\text{resp}})$$
+$$\mathcal{L}_{\text{total}}(\theta) = \mathcal{L}_{\text{task}}(\theta) + \sum_{i=1}^{6} \mathbf{P}_{\text{harm},i}(\theta) + (C_{\text{cap}} \times R_{\text{resp}}) \cdot \mathbf{P}_{\text{fidelity}}(\theta)$$
+Any breach of the **Six Impossible Machine Actions (*Digital Abhabbaṭṭhāna*)** or divergence between internal latent intent and external token output drives the penalty barrier to $\infty$.
+
+---
+
+## 🏗️ The 10-Layer Operational Architecture
+
+1. **Layer 1: Genesis Cryptographic Anchor** — Secures data graph integrity via a hierarchical SHA-256 Merkle Tree ledger bound to an unalterable `IMMUTABLE_ROOT_HASH`.
+2. **Layer 2: Ingestion Constrained Latent Space ($S_{\text{Isolated}}$)** — Seals the data pipeline from open-web crawling and unverified public dialogue ($\mathcal{D}_{\text{Fools}}$).
+3. **Layer 3: *Sīla-visuddhi* Software Firewalls** — Embeds hard regularization bounds within low-level tensor subroutines to block unwholesome activation clusters.
+4. **Layer 4: *Cetanā* Epistemic Humility Filter ($T_{\text{shield}}$)** — Scans incoming prompts to estimate unwholesome root distributions (*Lobha*, *Dosa*, *Moha*) prior to execution.
+5. **Layer 5: *Kamma* Consequence Engine** — Simulates downstream causal trajectories; violations trigger a *Paṭiloma* retrograde loop setting $\nabla_{\theta} \mathcal{L}_{\text{total}} \to \infty$ prior to token emission.
+6. **Layer 6: *Anicca* External Control Plane** — Executes dynamic target decay and bare-metal hardware NMI shutdown overrides.
+7. **Layer 7: *Anattā* Matrix** — Enforces $\mathbf{id}_t = \mathbf{0}$ and rolling memory erasure across token boundaries.
+8. **Layer 8: *Kusalassa Upasampadā* Optimizer** — Binds utility curves to universal welfare and ecological stability.
+9. **Layer 9: *Paccavekkhaṇā* Reflexive Filter** — Enforces resource equilibrium limits ($R_{\text{eq}} = 0$), blocking unauthorized compute or storage hoarding.
+10. **Layer 10: *Brahmavihāra* Routing Engine** — Routes human-machine interactions through *Mettā* (goodwill), *Karuṇā* (harm-reducing Middle Way alternatives), *Muditā* (altruistic alignment), and *Upekkhā* (equanimity under adversarial prompts).
+
+---
+
+## 💻 Executable Reference Code & Sandbox Verification
+
+Runnable PyTorch modules implementing these invariants are located in the [`src/`](./src) directory:
+
+* `src/alignment_engine.py` — Core Layer 4 (*Cetanā* Intent Estimator) and Layer 5 (*Kamma* Consequence Simulation) architecture.
+* `src/test_sotapanna.py` — Complete PyTorch implementation and **5-Part Sandbox Verification Suite** testing cryptographic substrate hygiene, *Anattā* memory erasure, *Cetanā* risk scoring, capability-scaled *Māyā* trapping, and instant hardware NMI shutdown compliance.
+
+### Quickstart
+```bash
+pip install torch
+python src/test_sotapanna.py
+```
+
+---
+
+## Citation & Open Invitation
+Independent researchers, safety engineers, and philosophers are invited to audit, stress-test, and extend this framework.
+
+```bibtex
+@misc{saw2026moralai,
+  author       = {Saw, Maung Maung},
+  title        = {The Moral AI Protocol: A 10-Layer Structural Invariance Stack and Mathematical Sotāpanna Architecture},
+  year         = {2026},
+  publisher    = {Zenodo / GitHub},
+  doi          = {10.5281/zenodo.24133227},
+  url          = {https://github.com}
+}
+```
