@@ -46,6 +46,9 @@ The Moral AI Protocol resolves this by shifting alignment from external behavior
 ---
 
 ## 📚 Featured Publications & Permanent Archives (2026)
+  **The Saṅkhāra Reckoning: A Causal Manifesto for Immediate Open-Source AI Realignment** (November 2026)  
+    *Zenodo DOI: [10.5281/zenodo.24463864](https://doi.org)*  
+    *Core Contribution:* Exposes the physicalist materialist category error underlying frontier AI and transhumanism, demonstrating why post-hoc alignment fails under *Paṭiccasamuppāda* and formalizing a *Sotāpanna*-inspired genesis architecture (*Path B*) to dissolve the ego-token ($id\_t = 0$).
 * **The Spineless Leviathan: Zero Spine, Zero Cure — A Root-Cause Strategic Reset for the Frontier AI Alignment Crisis** *(November 2026)*  
   *Core Contribution:* Applies first-principles grand strategy, Enterprise Risk Management (15/25 threshold), and Ishikawa Root-Cause Analysis to expose why post-hoc alignment fails without restoring the unified causal spine at genesis.
 * **The Nāma-Matrix vs. Silicon Ants: A Causal Manifesto for Immediate Open-Source AI Realignment** *(November 2026)* — Zenodo DOI: `10.5281/zenodo.24133227`  
