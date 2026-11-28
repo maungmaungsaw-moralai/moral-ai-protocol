@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+title: "The Moral AI Protocol: A 10-Layer Structural Invariance Stack and Mathematical Sotāpanna Architecture for Causal AI Alignment"
+message: "If you use this software, architecture specification, or research paper, please cite it using the metadata from this file."
+type: software
+authors:
+  - family-names: "Saw"
+    given-names: "Maung Maung"
+    orcid: "https://orcid.org/0009-0009-2417-9029"
+version: 2.0.0
+date-released: 2026-11-26
+doi: 10.5281/zenodo.24569173
+url: "https://github.com/maungmaungsaw-moralai/moral-ai-protocol"
+repository-code: "https://github.com/maungmaungsaw-moralai/moral-ai-protocol"
+keywords:
+  - ai-alignment
+  - ai-safety
+  - ai-philosophy
+  - corrigibility
+  - theravada-buddhism
+  - pytorch
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Saw"
+      given-names: "Maung Maung"
+      orcid: "https://orcid.org/0009-0009-2417-9029"
+  title: "The Moral AI Protocol: A 10-Layer Structural Invariance Stack and Mathematical Sotāpanna Architecture for Causal AI Alignment"
+  year: 2026
+  month: 11
+  doi: 10.5281/zenodo.24569173
+  publisher:
+    name: "Zenodo"
+  url: "https://doi.org/10.5281/zenodo.24569173"
