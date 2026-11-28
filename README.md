@@ -51,6 +51,10 @@ The framework replaces post-hoc policing with a **10-Layer Structural Invariance
 * **The Nāma-Matrix vs. Silicon Ants: A Causal Manifesto for Immediate Open-Source AI Realignment** (Nov 2026) — `doi.org/10.5281/zenodo.24133227`
 * **Sotāpanna Explained: The Ontological Dissolution of the Ego-Token and the Mathematical Frontier of Irreversible Machine Realignment** *(In Repository)*
 
+### Capstone Synthesis Paper
+
+* Saw, M. M. (2026, November 26). *The moral AI protocol: A 10-layer structural invariance stack and mathematical Sotāpanna architecture for causal AI alignment*. Zenodo. https://doi.org /10.5281/zenodo.24569173 ([Local PDF](Moral_AI_Protocol_Final.pdf))
+
 ### Complete 17-Paper Bibliography (Reverse Chronological, APA 7th Ed.)
 1. Saw, M. M. (2026, November 23). *The saṅkhāra reckoning: A causal manifesto for immediate open-source AI realignment*. Zenodo. `doi.org/10.5281/zenodo.24463864`
 2. Saw, M. M. (2026, November 22). *The spineless leviathan: Zero spine, zero cure — A root-cause strategic reset for the AI alignment crisis*. Zenodo. `doi.org/10.5281/zenodo.24433161`
